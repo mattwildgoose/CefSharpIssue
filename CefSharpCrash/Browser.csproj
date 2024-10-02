@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <ProjectGuid>{1D6E6C99-ECE5-4BBC-AC15-89C2566B2471}</ProjectGuid>
+        <OutputType>WinExe</OutputType>
+        <TargetFramework>net48</TargetFramework>
+        <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+        <AssemblyTitle>CefSharpCrash</AssemblyTitle>
+        <Product>CefSharpCrash</Product>
+        <Copyright>Copyright ©  2024</Copyright>
+        <AssemblyTitle>CefSharpCrash</AssemblyTitle>
+        <Product>CefSharpCrash</Product>
+        <Copyright>Copyright ©  2024</Copyright>
+        <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+        <OutputPath>bin\$(Configuration)\</OutputPath>
+        <DebugType>portable</DebugType>
+        <PlatformTarget>x64</PlatformTarget>
+    </PropertyGroup>
+    <ItemGroup>
+        <Reference Include="System.Windows.Forms" />
+    </ItemGroup>
+    <ItemGroup>
+        <PackageReference Include="CefSharp.WinForms" Version="128.4.90" />
+    </ItemGroup>
+</Project>
